@@ -12,8 +12,7 @@
 			<a href="#projects"><img src="4jmarteLogo.jpg" class="logo" alt="logo" height="75" ></a><!--this insert the logo og 4JMarte as jpeg file -->
 			<nav class="header">
 				<ul id="menu">
-					<li><a href="homePage.html">Home</a></li>
-					<li><a href="aboutPage.html">About</a></li> 
+					<li><a href="aboutPage.html">Home</a></li> 
 					<li><a href="servicesPage.html">Services</a></li> <!--this brings users to the Services page -->
 					<li><a href="projectsPage.html">Projects</a></li><!--this brings users to the Projects page -->
 					<li><a href="Contacts.html">Contact</a></li><!--this brings users to the Contact page -->
