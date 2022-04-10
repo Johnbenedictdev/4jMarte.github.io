@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+	<meta charset ="UTF-8">
+	<title>4jmarte website</title>
+	<link rel="stylesheet" href="style.css">
+	</head>
+	
+	<body>
+	<section id ="About">
+		<header><!--This div is for making the navigation bar(header)-->
+			<a href="#About"><img src="4jmarteLogo.jpg" class="logo" alt="logo" height="75" ></a> <!--This inserts the logo as a jpeg file-->
+			<nav class="header">
+				<ul id="menu"><!--this division is specifically set to separate the actual navigation links within the header-->
+					<li><a href="homePage.html">Home</a></li>
+					<li><a href="aboutPage.html">About</a></li> 
+					<li><a href="servicesPage.html">Services</a></li> <!--this brings users to the Services page -->
+					<li><a href="projectsPage.html">Projects</a></li><!--this brings users to the Projects page -->
+					<li><a href="Contacts.html">Contact</a></li><!--this brings users to the Contact page -->
+				</ul>
+			</nav>
+		</header>
+		
+		<div id="divA">
+			<h2 id="AboutUsLinks">What we are and what we believe in:</h2>
+			<div id="divB">
+				<ul class="image-bullets">
+					<li><a href="#box1aTarget"style="color: black">Mission statement</a></li> <!--I set this line of code and the code below as #Goals, not with their appropriate ID's because those aanchors are way up high the section. setting them as their appropriate anchor will bring you to the same page, it will seem like nothing happened.-->
+					<li><a href="#box1aTarget"style="color: black">Values</a></li> 
+					<li><a href="#Goals"style="color: black">Business goals & objectives</a></li> 
+					<li><a href="#EconomicIntent"style="color: black">Economic intent</a></li> 
+				</ul>   
+			</div>
+		</div>
+	</section>
+		<section id="AboutUsInfo">	
+			<div id="aboutParagraphInfo">
+			<div id="box1aTarget"></div>
+			<br>
+			<br>
+			<br>
+			<br>
+			
+				<div id="box1"> 
+					<div id="box1A">
+						<dt id="MissionStatement">Mission statement</dt>
+							<dd>We provide Consulting Service, and systems engineering works services remotely, via the Internet (WhatsApp, Teams, Zoom or Meet). We also aid on the installation, configuration, deployment, testing and commissioning, production/process equipment and system breakdown support via TeamViewer or AnyDesk remote desktop. </dd>
+							
+					</div>
+					<div id="box1B">
+						<dt id="Values">Values</dt>
+							<dd>We expect to provide the highest quality possible that we can commit to meet our customers’ satisfaction. We also care about our workers by giving them bonuses, perks, and incentives that will make their environment fit for work </dd> 
+					
+					</div>
+				</div>
+			
+				
+				<div id="box2"> 
+					<div id="box2A">
+						<dt id="Goals">Business goals & objectives </dt>
+							<dd>To be one of the leading Industrial Automation remote and field quality assurance engineering service provider in Asia Pacific and Europe </dd> 
+					</div>
+					<div id="box2B">
+						<dt id="EconomicIntent">Economic intent</dt>
+							<dd>This company has a soft spot for young minds who are unable to work in high class companies due to experience and lack of engineering knowledge, and to hone their skills by working for high class companies.				</dl>
+					</div>
+				</div>
+			</div>
+			
+			<div id="scrollDown">
+					<a href="#EconomicIntent"><img src="scrollDown.png" alt="scroll down" height="30"		
+			</div>
+	</section>
+	
+</body>
+</html>

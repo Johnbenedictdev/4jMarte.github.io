@@ -1,0 +1,182 @@
+<!DOCTYPE HTML>
+ <html lang="en">
+	<head>
+	<meta charset ="UTF-8">
+	<title>4jmarte website</title>
+	<link rel="stylesheet" href="style.css">
+	</head>
+	
+	<body>
+	<section id ="home">
+		<header>
+			<a href="#home"><img src="4jmarteLogo.jpg" class="logo" alt="logo" height="100" ></a>
+			<nav class="header">
+				<ul id="menu">
+					<li><a href="aboutPage.html">About</a></li>
+					<li><a href="servicesPage.html">Services</a></li>
+					<li><a href="projectsPage.html">Projects</a></li>
+					<li><a href="contacts	Page.html">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div class="head1">
+			<h1><span id="homewhite">Home</span></h1>
+			<p><q id="quote">Desire, <br> in liquid form.</q></p>
+			<blockquote cite="https://www.inc.com/geoffrey-james/21-best-quotes-about-coffee.html">
+				<q>The smell of fresh-made coffee is one of the world's greatest inventions.
+				</q><span id="hj">-Hugh Jackman</span>
+			</blockquote>
+		</div>
+	</section>
+
+	
+	<section id ="about">
+		<h1><span class="highlight">About</span></h1>
+		<div id="aboutParagraph">
+		<p id="aboutP"> 
+		
+			<dl> 
+				<dt><strong>Why <em>Sip’ O Java</em>?</strong></dt>
+					<dd>Coffee is also known as Java because of the introduction of coffee in south<br> east asia, predominantly in Java Indonesia, by the dutch in the 16th century. <br>Coffee then made its way through major parts of asia as “Java”</dt> 
+			</dl>
+			
+			<dl>
+				<dt><strong>Our coffee beans: </strong></dt> <dd>Our roasts boasts to be as rich as its history with its tangy and earthy tones.<br> Our coffee beans mainly come from countries in Asia and latin america, <br>our number one producer being Indonesia.<br></p></dd> 
+			</dl>
+		</p>
+		
+			<ol id="aboutList">
+			  <li>Indonesia</li>
+			  <li>Philippines</li>
+			  <li>Colombia</li>
+			  <li>Brazil</li>
+			  <li>Venezuela</li>				  
+			</ol>
+		
+		</div>
+	</section>
+	
+	
+	<section id ="beverages">
+		<div>
+			<h1><span class="highlight">Beverages</span></h1>
+		</div>
+		
+		
+		
+		<div class="beveragesImages">
+			<img src="beverages1.jpg" width="300" height="500" alt="drinks">
+			<img src="beverages2.jpg" width="300" height="500" alt="drinks">
+			<img src="beverages3.jpg" width="300" height="500" alt="drinks">
+			<img src="beverages5.jpg" width="300" height="500" alt="drinks">
+			<img src="beverages4.jpg" width="300" height="500" alt="drinks">
+		</div>
+		<div class="beveragesItem1">
+			<table id="data2"> 
+				
+				<tr><th>Hot Drinks <th> Price &euro;<th> Allergens<th>---<th>Hot Drinks<th>Price &euro;<th>Allergens</tr> 
+				<!-- add another "<th>" to the column headers to accomodate for the ro headers, otherwise the column header 1 is right above the column for the row headers and the final column has a blank header -->
+				<tr><td>Iced Latte<td>3.4<td>Soy, Dairy<td> <td>Cuppuccino<td> 2.8<td>Soy, Dairy</tr>
+				<tr><td>Iced Americano<td>2.7<td> - <td> <td>Americano<td> 2.5<td> - </tr> 
+				<tr><td>Coffee Shake<td>3.2<td>Nuts, Soy, Dairy<td> <td>Vietnamese Coffee<td> 3.2<td>Egg, Soy, Dairy</tr> 
+				<tr><td>Coffee Macchiato<td>3.2<td>Nuts, Soy, Dairy<td> <td>Pumpkin Spice Latte<td> 3.2<td>Soy, Dairy</tr> 
+				<tr><td>Ice Vanilla Coffee<td>3.2<td>Nuts, Soy, Dairy<td> <td>French Pressed<td> 3.2<td>Soy, Dairy</tr> 
+			</table> 
+		</div>
+	</section>
+		
+	<section id ="pastries">
+		<h1>
+			<span class="highlight">Pastries</span>
+		</h1>
+		
+		
+		
+		<div class="pastriesImages">
+			<img src="Pastry1.jfif" width="300" height="500" alt="pastryImage">
+			<img src="Pastry2.jfif" width="300" height="500" alt="pastryImage">
+			<img src="pastry3.jfif" width="300" height="500" alt="pastryImage">
+			<img src="pastry4.jfif" width="300" height="500" alt="pastryImage">
+			<img src="pastry5.jfif" width="300" height="500" alt="pastryImage">
+		</div>
+		<div class="beveragesItem1">
+			<table id="data2"> 
+				
+				<tr><th>Sweet Pastries <th> Price &euro;<th> Allergens<th>---<th>Savoury Pastries<th>Price &euro;<th>Allergens</tr> 
+				<!-- add another "<th>" to the column headers to accomodate for the ro headers, otherwise the column header 1 is right above the column for the row headers and the final column has a blank header -->
+				<tr><td>Chocolate Croissant<td>1.7<td>Dairy, nuts<td> <td>Croissaint<td> 2.8<td>Soy, Dairy</tr>
+				<tr><td>Donuts<td>1.6<td>Eggs, Dairy<td> <td>Bagel<td> 2.5<td> Eggs,Nuts, Soy, Dairy </tr> 
+				<tr><td>Puff Pastry 3x<td>3.2<td>Nuts, Soy, Dairy<td> <td>Soft Pretzel<td> 3.2<td>Egg, Soy, Dairy</tr> 
+				<tr><td>Log cakes<td>3.2<td>Eggs,Nuts, Soy, Dairy<td> <td>Grilled Cheese Sandwich<td> 3.2<td>Egg,Soy, Dairy</tr> 
+				<tr><td>Vienna Torte cake<td>3.2<td>Nuts, Soy, Dairy<td> <td>Tuna Melt<td> 3.2<td>Egg, Soy, Dairy, Tuna</tr> 
+			</table> 
+		</div>
+	</section>
+	<section id ="order">
+		<h1>
+			<span class="highlight">Order</span>
+		</h1>	
+			<form id="formorder" method="GET" action="#socials">
+				<dl>
+					<dt><br>First Name:
+						<dd><input type="text" name="firstName">
+					<dt><br>Last Name:
+						<dd><input type="text" name="lastName">
+					<dt><br>Order 1:
+						<dd><input type="text" name="order1">
+					<dt><br>Order 1 amount:
+						<dd><input type="text" name="order1Amount">
+					<dt><br>Order 2:
+						<dd><input type="text" name="order2">
+					<dt><br>Order 2 amount:
+						<dd><input type="text" name="order2Amount">
+					<dt><br>Order 3:
+						<dd><input type="text" name="order3">
+					<dt><br>Order 3 amount:
+						<dd><input type="text" name="order3Amount">
+					<dt><br>Order 4:
+						<dd><input type="text" name="order4">
+					<dt><br>Order 4 amount:
+						<dd><input type="text" name="order4Amount">
+					<dt><br>Order 5:
+						<dd><input type="text" name="order5">
+					<dt><br>Order 5 amount:
+						<dd><input type="text" name="order5Amount">						
+				</dl>
+			
+				
+				<br><p><input type="submit" value="Submit order"></p>
+			</form>
+			
+			
+		
+	</section>
+	<section id ="socials">
+		<h1>
+			<span class="highlight">Socials</span>
+		</h1>
+		
+			<form id="formssocials"method="POST" action="#home" >
+				<caption id="caption">Please tell us what you think<br></caption>
+			
+				<textarea name="The Future Web" rows="8" cols="70">
+				Comment
+				</textarea>
+				<p><input type="submit" value="Submit Form"></p>
+			</form>
+				
+		<div id="reachout"><p id="reachooutparagraph"><br><br>Reach out to us through:</p>
+			<ul id="socialspng"> 
+				<li><a href="Sip'OJava.ins"><img src="insta.png" width="200px" height="200px" alt="instagram"></a></li> 
+				<li><a href="Sip'OJava.fb"><img src="facebook.png" width="200px" height="200px" alt="facebook"></a></li> 
+				<li><a href="Sip'OJava.tw"><img src="twitter.png" width="200px" height="200px" alt="twitter"></a></li> 
+			</ul> 
+		</div>
+		
+	</body>
+ </html>
+ 
+ 
+ 
+ 
+ 

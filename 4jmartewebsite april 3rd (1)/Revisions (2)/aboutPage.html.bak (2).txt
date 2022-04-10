@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+	<meta charset ="UTF-8">
+	<title>4jmarte website</title>
+	<link rel="stylesheet" href="style.css">
+	</head>
+	
+	<body>
+	<section id ="About">
+		<header>
+			<a href="#About"><img src="4jmarteLogo.jpg" class="logo" alt="logo" height="75" ></a>
+			<nav class="header">
+				<ul id="menu">
+					<li><a href="aboutPage.html">About</a></li>
+					<li><a href="servicesPage.html">Services</a></li>
+					<li><a href="projectsPage.html">Projects</a></li>
+					<li><a href="contactPage.html">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		<p id="aboutQuote"><q id="quote">Automation for everyone</q></p>
+	</section>
+	<section id="aboutSectionInfo">
+		<div class="head1">
+		
+			</div>
+			<div class="aboutParagraphInfo">
+				<dl> 
+					<dt>Mission statement</dt>
+						<dd>We provide Consulting Service, and systems engineering works services remotely, via the Internet (WhatsApp, Teams, Zoom or Meet). We also aid on the installation, configuration, deployment, testing and commissioning, production/process equipment and system breakdown support via TeamViewer or AnyDesk remote desktop. </dd> 
+				</dl>
+				
+				<dl> 
+					<dt>Values</dt>
+						<dd>We expect to provide the highest quality possible that we can commit to meet our customers’ satisfaction. We also care about our workers by giving them bonuses, perks, and incentives that will make their environment fit for work </dd> 
+				</dl>
+				
+				<dl> 
+					<dt>Business goals & objectives </dt>
+						<dd>To be one of the leading Industrial Automation remote and field quality assurance engineering service provider in Asia Pacific and Europe </dd> 
+				</dl>
+				
+				<dl> 
+					<dt>Economic intent</dt>
+						<dd>This company has a soft spot for young minds who are unable to work in high class companies due to lack of engineering experience but get paid higher salary wages than working for high class companies and learning the inner workings, with the guidance and direction from Sole proprietor senior engineer who the SME for automation mentors them and to ensure their place as prominent engineers. </dd> 
+				</dl>
+				
+				
+			</div>
+	</section>
+</body>

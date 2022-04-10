@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+	<meta charset ="UTF-8">
+	<title>4jmarte website</title>
+	<link rel="stylesheet" href="style.css">
+	</head>
+	
+	<body>
+	<section id ="Home">
+		<header><!--This div is for making the navigation bar(header)-->
+			<a href="#Home"><img src="4jmarteLogo.jpg" class="logo" alt="logo" height="75" ></a> <!--This inserts the logo as a jpeg file-->
+			<nav class="header">
+				<ul id="menu"><!--this division is specifically set to separate the actual navigation links within the header-->
+					<li><a href="homePage.html">Home</a></li>
+					<li><a href="aboutPage.html">About</a></li> 
+					<li><a href="servicesPage.html">Services</a></li> <!--this brings users to the Services page -->
+					<li><a href="projectsPage.html">Projects</a></li><!--this brings users to the Projects page -->
+					<li><a href="Contacts.html">Contact</a></li><!--this brings users to the Contact page -->
+				</ul>
+			</nav>
+		</header>
+		<q id="quote">Automation for everyone</q>
+		<div id="scrollDown">
+			<img src="scrollDown.png" alt="scroll down" height="30"		
+		</div>
+		<div id="divA">
+			<ul id="image-bullets"> 
+				<li><a href="script.html"> JavaScript</a></li> 
+				<li><a href="style.html">Cascading Style Sheets</a></li> 
+				<li><a href="program.html">C Programming</a></li> 
+			</ul>   
+		</div>
+	</section>
+	
+</body>

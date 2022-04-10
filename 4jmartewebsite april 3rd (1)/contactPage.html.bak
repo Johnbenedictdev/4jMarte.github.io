@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+	<meta charset ="UTF-8">
+	<title>4jmarte website</title>
+	<link rel="stylesheet" href="style.css">
+	</head>
+	
+	<body>
+	<section id ="contact">
+		<header> <!--This header div is the same as the About page -->
+			<a href="#contact"><img src="4jmarteLogo.jpg" class="logo" alt="logo" height="75" ></a><!--this insert the logo og 4JMarte as jpeg file -->
+			<nav class="header">
+				<ul id="menu">
+					<li><a href="homePage.html">Home</a></li>
+					<li><a href="aboutPage.html">About</a></li> 
+					<li><a href="servicesPage.html">Services</a></li> <!--this brings users to the Services page -->
+					<li><a href="projectsPage.html">Projects</a></li><!--this brings users to the Projects page -->
+					<li><a href="contactPage.html">Contact</a></li><!--this brings users to the Contact page -->
+				</ul>
+			</nav>
+		</header>
+		
+		
+	<div id="scrollDown">
+				<img src="scrollDown.png" alt="scroll down" height="30"
+			</div>
+	</section>
+	<div id="contacts">
+	<p id="4jmarteEmail">contact us via our email: 4jmarte@gmail.com</p>
+		<p id="4jmarteFBLI">or reach out through our socials:</p>
+		<!--Lines of codes below adds hyperlinks to logos of Facebook and LinkedIn to redirect website visitors to 4JMarte's Facebook and LinkedIn pages-->
+		<a href="https://www.facebook.com/FourjMarte/"><img src="facebookLogo.png" alt="image" height="400">
+		<a href="https://ph.linkedin.com/in/4jmarte-industrial-automation-6a0050211"><img src="linkedinLogo.png" alt="image"  height="400">
+		</div>
+	</body>

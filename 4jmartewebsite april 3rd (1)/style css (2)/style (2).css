@@ -1,0 +1,339 @@
+table#data
+{
+	width: 90%; 
+	font-family : sans-serif; 
+	Border: 5px solid black;
+	margin: auto
+} 
+
+table#data td,th 
+{
+	border : 1px solid black; 
+	
+} 
+
+span.highlight 
+{
+    background: linear-gradient(120deg, #e4a0a1 0%, #e4a0a1 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 35%;
+    background-position: 0 100%;
+}
+#homewhite
+{
+	 background: linear-gradient(120deg, #e4a0a1 0%, #e4a0a1 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 35%;
+    background-position: 0 100%;
+	color: white;
+}
+
+#home
+{
+	background-image: url(coffee.jpg);
+	background-size: cover; 
+}
+
+#about
+{
+	background-image: url(about.jpg);
+	background-size: cover; 
+}
+#beverages
+{
+	background-color: rgb(233,195,145);
+	background-size: contain; 
+}
+#pastries
+{
+	background-color: #fcddda;
+	background-size: contain; 
+}
+#order
+{
+	background-color: #faecc1; 
+	background-size: contain; 
+}
+#socials
+{
+	background-color: #fff;
+	background-size: contain;  
+}
+
+*{ 
+
+    margin: 0; 
+
+    padding: 0; 
+	
+
+} 
+html{ 
+
+    scroll-behavior: smooth;
+
+} 
+
+div, section, span, ul, li, a, header{ 
+
+    box-sizing: border-box; 
+
+} 
+html 
+{
+  scroll-behavior: smooth;
+}
+#menu li{ 
+
+    list-style-type: none; 
+
+    display: inline-block; 
+
+    margin: 20px; 
+
+} 
+
+  
+
+#menu li a{ 
+
+    color: white;
+
+    text-decoration: none; 
+
+    font-size: 20px; 
+
+} 
+
+header{ 
+    position: fixed; 
+    width: 100%; 
+    z-index: 18; 
+    padding: 0px 0px;
+	display: flex; 	
+    justify-content: space-between; 
+	background-color: rgba(212,81,0,0.7);
+}
+nav.header
+{
+	background-color: rgb(212,81,0,0.8);
+}
+
+section{ 
+
+    width: 100%; 
+
+    float: left; 
+
+    height: 100vh; 
+
+    position: relative; 
+
+} 
+body{ 
+
+    font-size: 100%; 
+
+
+} 
+
+h1{ 
+
+    position: absolute; 
+	
+    top: 15%;
+	font-size: 50px;	
+
+    left: 50%; 
+
+    transform: translate(-50%, -50%); 
+
+    color: black; 
+	z-index: 999; 
+	
+	    background: linear-gradient(120deg, #e4a0a1 0%, #e4a0a1 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 40%;
+    background-position: 0 90%;
+
+} 
+
+#aboutParagraph
+{
+	position: absolute; 
+
+    top: 20%; 
+
+    left:25%; 
+	right:25%;
+
+    background-color: #e4a0a1;	
+	
+	font-family: Pacifico; 
+	font-size: 20px;
+	font-style: cursive; 
+	font-variant: cursive; 
+	font-weight: 300; 
+	z-index: 5;
+	width: 400;
+	
+	background: rgb(228,160,161,0.8);
+  
+    background-size: 100% 50%;
+    background-position: 0 25%;
+	
+}
+#aboutList
+{
+	position: relative;
+	left: 5%;
+}
+
+#aboutP
+{
+	position: relative;
+	left: 10%;
+}
+div.beveragesImages
+{
+	position: relative;
+	top: 20%;
+	display: flex;
+	justify-content: center;
+}
+
+div.beveragesItem1
+{
+	position: relative;
+	top: 20%;
+
+}
+#data2
+{
+	position: relative; 
+	top: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 30px;
+}
+div.pastriesImages
+{
+	position: relative;
+	top: 20%;
+	display: flex;
+	justify-content: center;
+}
+form
+{
+	position: relative;
+	top: 20%;
+	display: flex;
+	
+	justify-content: center;
+}
+#submitbutton
+{
+	position: relative;
+	top: 35%;
+	display: flex;
+	justify-content: center;
+}
+q
+{
+	color: white;
+	position: absolute:
+	top: 40%;
+}
+#quote
+{
+	position: absolute;
+	top: 35%;
+	font-size: 100px;
+	left: 10%;
+	font-family: Pacifico; 
+	font-size: 100px;
+	font-style: cursive; 
+	font-variant: cursive; 
+}
+blockquote
+{
+	position: absolute;
+	top: 89%;
+	right: 10%;
+	font-family: Pacifico; 
+	font-size: 30px;
+	font-style: cursive; 
+	font-variant: cursive; 
+}
+
+#hj
+{
+	color: white;
+}
+
+#reachout
+{
+	position: absolute;
+	top: 0%;
+}
+#caption
+{
+	font-family: Pacifico; 
+	font-size: 50px;
+	font-style: cursive; 
+	font-variant: cursive; 
+}
+#reachout
+{
+	position: relative;
+	top: 30%;
+	display: flex;
+	display: block;
+	text-align: center;
+	justify-content: center;
+	font-family: Pacifico; 
+	font-size: 20px;
+	font-style: cursive; 
+	font-variant: cursive; 
+	
+	text-align: center;
+	justify-content: center;
+	a:hover { background : yellow ; }
+	a:active { background : olive ; }
+	a:visited { background : aqua ; }
+
+}
+#formssocials
+{
+	position: relative;
+	top: 30%;
+	display: flex;
+	display: block;
+	
+	text-align: center;
+	justify-content: center;
+	font-family: Pacifico; 
+	font-size: 20px;
+	font-style: cursive; 
+	font-variant: cursive; 
+}
+
+#socialspng
+{
+	display: inline; 
+
+
+	list-style-type: none; 
+
+    display: inline-block; 
+
+
+	display: flex; 	
+    justify-content: center; 
+}
+
+#socialspng img
+{
+	margin: 10px;
+	border: 0;
+}

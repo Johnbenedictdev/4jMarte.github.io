@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+	<meta charset ="UTF-8">
+	<title>4jmarte website</title>
+	<link rel="stylesheet" href="style.css">
+	</head>
+	
+	<body>
+	<section id ="projects">
+		<header>
+			<a href="#projects"><img src="4jmarteLogo.jpg" class="logo" alt="logo" height="75" ></a><!--this insert the logo og 4JMarte as jpeg file -->
+			<nav class="header">
+				<ul id="menu">
+					<li><a href="homePage.html">Home</a></li>
+					<li><a href="aboutPage.html">About</a></li> 
+					<li><a href="servicesPage.html">Services</a></li> <!--this brings users to the Services page -->
+					<li><a href="projectsPage.html">Projects</a></li><!--this brings users to the Projects page -->
+					<li><a href="Contacts.html">Contact</a></li><!--this brings users to the Contact page -->
+				</ul>
+			</nav>
+		</header>
+			<div id="divE">
+				<h2 id="AboutUsLinks3">Our Services</h2>
+				<div id="divF">
+					<p id="ProjectsIntro">4jMarte has had many projects with multiple firms from different countries. The most recent projects are with JG Summit and Unioil</p>
+			
+			</div>
+		</div>
+	</section>
+		<p id="projectsProjects">Projects</p>
+		<!--2 <a> tags below rbings users to JGSummitSection and UnioilSection respectively -->
+		<a href="#JGSummitSection"><p id="UnioilProjects">Unioil</p></a>
+		<a href="#UnioilSection"><p id="JGSummitProjects">JG Summit</p></a>
+	</section>
+			
+		
+		
+			
+		<section id ="JGSummitSection"><!--All the information about JGSummit is put here, text on the left and image on the right -->
+			<div id="lev1"> 
+				<div id="lev1A" class="box">
+					<p><b>Unioil</b><br> 4jMarte provided Unioil installation and commissioning services. We also provided site acceptance test</p> <!--this is the text -->
+					
+				</div>
+			
+				<div id="lev1B" class="box">
+					<img src="unioil.png" alt="image" width="100%" > <!--this is the image -->
+					
+				</div>
+			</div>
+			
+			
+			<div id="lev2">
+				<div id="lev2A" class="box">
+					<img src="JGSummit.png" alt="image" width="100%" ><!--this is the image -->
+				</div>
+				
+				<div id="lev2B" class="box">	
+					<p> <b>JG summit</b> <br>4jMarte provided one of JG summit's production plant support. Along with that we also installed and commissioned products. Working with JG Summit helped 4JMarte explore the capabilities of Microsoft Teams and other applications because of JG Summit's partnership with Microsoft</p><!--this is the text -->
+					
+				</div>
+				<div id="video">
+						<iframe width="80%" height="80%" src="Video.mp4" title="JG Summit's partnership with Microsoft" frameborder="0" allow="accelerometer; clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen></iframe>
+				</div>
+				
+			<div id="Scroll2">
+				<div id="ScrollUp2">
+					<a href="#projects"><img src="Up.png" alt="click to go up" height="30">
+				</div>
+					<a href="#lev2A"><img src="Down.png" alt="scroll down" height="30">
+				</div>
+			</div>
+			
+		</section>
+			
+		<section id ="UnioilSection"><!--All the information about Unioil is put here, image on the left and text on the right. In contrast with the one before it to create a se4nse of proportionality-->
+		
+		</div>
+		
+			
+			
+
+		</section>
+		
+		<div id="Scroll2">
+				<div id="ScrollUp2">
+					<a href="#projects"><img src="Up.png" alt="click to go up" height="30">
+				</div>
+					<a href="#lev1A"><img src="Down.png" alt="scroll down" height="30">
+				</div>
+
+				
+</body>
+</html>
